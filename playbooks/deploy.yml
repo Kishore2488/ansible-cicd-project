@@ -1,0 +1,9 @@
+---
+- hosts: webservers
+  become: yes
+
+  tasks:
+    - name: Copy application code
+      copy:
+        src: ../src/
+        dest: /usr/share/nginx/html/
