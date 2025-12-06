@@ -4,6 +4,7 @@ PROJECT ARCHITECTURE:::
 
 
 FOLDER STRUCTURE:::
+
             ansible-cicd-project/
           ├── Jenkinsfile
           ├── inventory
